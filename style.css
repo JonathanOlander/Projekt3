@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cbf3f9;
+    margin-top: 5vh;
+    font-size: 5vh;
+    backdrop-filter: blur(2px);
+    box-shadow: 2px 2px 8px black;
+    width: 40%;
+    margin: auto;
+    height: 20vh;
+    margin-bottom: 7.5vh;
+    margin-top: auto;
+}
+
+.first {
+    background-image: url(picture/kebab1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 12.5vh;
+    padding-top: 5vh;
+    font-family: 'EB Garamond', serif;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    backdrop-filter: blur(2px);
+    box-shadow: 2px 2px 8px black;
+    padding-bottom: 2vh;
+}
+
+.text1 {
+    margin: auto;
+    width: 80%;
+}
+
+.titel1 {
+    display: grid;
+    align-content: center;
+}
+
+.meny {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #cbf3f9;
+    padding-top: 2.5vh;
+    gap: 2vh;
+    padding-bottom: 3vh;
+    font-family: 'EB Garamond', serif;
+}
+
+.meny img {
+    width: 80%;
+}
+
+.meny h2 {
+    font-size: 7.5vh;
+}
+
+.third {
+    padding: 10vh;
+    background-color: #2e3133;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 2vh;
+    font-size: 5vh;
+    font-family: 'EB Garamond', serif;
+    border-radius: 5px;
+}
+
+.titel2 {
+    padding: 5vh;
+    font-family: 'EB Garamond', serif;
+    font-size: 4vh;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+}
+
+.forth {
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    padding: 5vh;
+    padding-top: 25vh;
+}
+
+.forth p {
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.forth  img{
+    border-radius: 100%;
+    width: 17.5%;
+    border: solid black 1.5px;
+}
+
+.titel3 {
+    font-size: 3vh;
+}
+
+.fifth {
+    font-family: 'EB Garamond', serif;
+    padding: 10vh 25vh 10vh;
+}
+
+.titel4 {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.fifth{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    font-size: 3vh;
+    gap: 5vh;
+}
+
+.fifth img{
+    width: 35%;
+    border-radius: 100%;
+    border: solid black 0.5px;
+}
